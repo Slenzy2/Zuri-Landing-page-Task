@@ -1,0 +1,120 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 5% 0 3%;
+}
+
+.hero_guy_container,
+.hero_lady_container {
+  width: 30%;
+}
+
+.hero_lady,
+.hero_guy {
+  width: 100%;
+  margin: auto 0;
+}
+
+.hero_text {
+  width: 40%;
+  text-align: center;
+  position: relative;
+}
+
+.your_search {
+  color: #e7332b;
+  /* font-family: Graphik; */
+}
+
+.gain_knowledge {
+  margin: 0;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.gain_container {
+  position: relative;
+}
+
+.gain_container img {
+  position: absolute;
+  right: 0;
+}
+
+.basic_container {
+  margin: 8% 0;
+}
+
+.basic_intro {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.your_search,
+.basic_intro {
+  font-size: 1.4rem;
+}
+
+.hero a {
+  padding: 1.7% 5%;
+  background-color: #e7332b;
+  color: white;
+  border-radius: 30px;
+  font-size: 1.3rem;
+}
+
+.arrow_down img {
+  width: 35%;
+}
+
+.second_hero_guy {
+  position: absolute;
+  bottom: 15%;
+  left: 0;
+}
+
+.second_hero_guy img {
+  width: 70%;
+}
+
+.arrow_down {
+  width: 50%;
+  margin: 3% auto;
+  display: flex;
+  justify-content: end;
+}
+
+/* Section Two */
+.section_two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section_two div {
+  width: 30%;
+}
+
+.ingressive_for {
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: 30%;
+}
+
+.to_help {
+  text-align: right;
+  font-size: 1.4rem;
+  width: 25%;
+}
+
+/* SEction THree  */
